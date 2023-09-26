@@ -2,14 +2,36 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background-color: rgb(12, 12, 16);
 }
 
 header {
-    background-image: linear-gradient(hsl(0, 0%, 50%), hsl(0, 0%, 50%), hsl(0, 0%, 60%), rgba(0, 0, 0, 0));
-    width: 100%;
+    background-image: linear-gradient(hsla(0, 0%, 50%, 50%), hsla(0, 0%, 50%, 30%));
+    border-radius: 0 0 15% 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 header img {
-    margin: 0;
-    padding: 0;
+    margin: 1.5em 4em;
+    width: 120px;
+}
+
+nav {
+    margin: auto 7em;
+}
+
+nav li {
+    display: inline;
+    text-align: right;
+    padding: 0.5em;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 3em;
+    font-family: Anton;
 }
