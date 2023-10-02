@@ -15,7 +15,7 @@
 					<a href="portfolio.php">
 						<img src="assets/images/prints.png" alt="paw prints">
 						
-						<h3>Skill</h3>
+						<h3>Design</h3>
 					</a>
 				</div>
 			</div>

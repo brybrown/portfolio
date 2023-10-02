@@ -6,7 +6,8 @@ body {
 }
 
 header {
-	background-image: linear-gradient(hsla(0, 0%, 50%, 50%), hsla(0, 0%, 50%, 30%));
+	/* background-image: linear-gradient(hsla(0, 0%, 50%, 50%), hsla(0, 0%, 50%, 30%)); */
+	background-color: #8ECAD1;
 	border-radius: 0 0 15% 3%;
 	display: flex;
 	justify-content: space-between;
@@ -40,12 +41,12 @@ nav li {
 }
 
 nav li a:hover {
-	color: hsl(0, 0%, 70%);
+	color: hsl(0, 0%, 85%);
 }
 
 nav li a {
 	text-decoration: none;
-	color: white;
+	color: #eee;
 	font-size: 3em;
 	font-family: Anton;
 	transition: color 0.3s;
@@ -63,19 +64,22 @@ nav li a {
 	text-align: center;
 	height: auto;
 	margin-top: 4em;
-	color: hsl(0, 0%, 40%);
-	transition: color 0.3s;
+	transition: color 0.3s, background-color 0.3s;
 }
 
 .card:hover {
 	color: hsl(0, 0%, 20%);
+	background-color: hsl(0, 0%, 80%);
 }
 
 .card h3 {
-	font-size: 3em;
+	font-size: 3.5em;
 	padding-top: 0.5em;
 	padding-bottom: 0.25em;
 	margin: 0;
+	font-family: 'Bakbak One';
+	color: #6FD180;
+	transition: color 0.3s;
 }
 
 .card img {
@@ -83,6 +87,10 @@ nav li a {
 	border-radius: 10% 10% 0% 10%;
 	filter: brightness(75%);
 	transition: filter 0.3s;
+}
+
+.card:hover h3 {
+	color: #5F8566;
 }
 
 .card:hover img {
