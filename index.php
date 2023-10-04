@@ -10,15 +10,25 @@
 		?>
 
 		<main>
+
 			<div class="cardsdiv">
 				<div class="card">
 					<a href="portfolio.php">
 						<img src="assets/images/prints.png" alt="paw prints">
 						
-						<h3>Design</h3>
+						<h3>Front-End</h3>
+					</a>
+				</div>
+				
+				<div class="card">
+					<a href="back.php">
+						<img src="assets/images/prints.png" alt="paw prints">
+
+						<h3>Back-End</h3>
 					</a>
 				</div>
 			</div>
+
 		</main>
 	</body>
 </html>

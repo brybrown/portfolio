@@ -54,7 +54,7 @@ nav li a {
 
 .cardsdiv {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .card {
@@ -90,7 +90,7 @@ nav li a {
 }
 
 .card:hover h3 {
-	color: #5F8566;
+	color: #75a57e;
 }
 
 .card:hover img {
