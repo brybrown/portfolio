@@ -9,6 +9,8 @@
 			require "helpful-html/headerbar.html";
 		?>
 
+		<link rel="stylesheet" href="css/about.css">
+
 		<main>
 
 			<div class="cardsdiv">
@@ -28,6 +30,10 @@
 					</a>
 				</div>
 			</div>
+
+			<?php
+				require "helpful-html/about.html";
+			?>
 
 		</main>
 	</body>
