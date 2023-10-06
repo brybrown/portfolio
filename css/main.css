@@ -1,15 +1,104 @@
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: rgb(12, 12, 16);
 }
 
 header {
-    background-image: linear-gradient(hsl(0, 0%, 50%), hsl(0, 0%, 50%), hsl(0, 0%, 60%), rgba(0, 0, 0, 0));
-    width: 100%;
+	/* background-image: linear-gradient(hsla(0, 0%, 50%, 50%), hsla(0, 0%, 50%, 30%)); */
+	background-color: #8ECAD1;
+	border-radius: 0 0 15% 3%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	flex-direction: row;
 }
 
 header img {
-    margin: 0;
-    padding: 0;
+	width: 100%;
+}
+
+.logo {
+	margin: 1.5em 4em;
+	width: 120px;
+	filter: brightness(100%);
+	transition: filter 0.3s;
+}
+
+.logo:hover {
+	filter: brightness(80%);
+}
+
+nav {
+	margin: auto 7em;
+}
+
+nav li {
+	display: inline;
+	text-align: right;
+	padding: 0.5em;
+}
+
+nav li a:hover {
+	color: hsl(0, 0%, 85%);
+}
+
+nav li a {
+	text-decoration: none;
+	color: #eee;
+	font-size: 3em;
+	font-family: Anton;
+	transition: color 0.3s;
+}
+
+.cardsdiv {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.card {
+	width: 20%;
+	background-color: hsl(0, 0%, 90%);
+	border-radius: 10% 10% 3% 10%;
+	text-align: center;
+	height: auto;
+	margin-top: 4em;
+	transition: color 0.3s, background-color 0.3s;
+}
+
+.card:hover {
+	color: hsl(0, 0%, 20%);
+	background-color: hsl(0, 0%, 80%);
+}
+
+.card h3 {
+	font-size: 3.5em;
+	/* padding-top: 0.5em; */
+	/* padding-bottom: 0.25em; */
+	padding: 0.4em 0.5em 0.25em 0.5em;
+	margin: 0;
+	font-family: 'Bakbak One';
+	color: #6FD180;
+	transition: color 0.3s;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 10% 10% 0% 10%;
+	filter: brightness(75%);
+	transition: filter 0.3s;
+}
+
+.card:hover h3 {
+	color: #75a57e;
+}
+
+.card:hover img {
+	filter: brightness(50%);
+}
+
+.card a {
+	text-decoration: none;
+	color: inherit;
 }
