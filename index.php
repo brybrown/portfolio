@@ -24,7 +24,7 @@
 					<a href="back.php">
 						<img src="assets/images/prints.png" alt="paw prints">
 
-						<h3>Back-End</h3>
+						<h3>Skills</h3>
 					</a>
 				</div>
 			</div>

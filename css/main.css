@@ -37,10 +37,12 @@ nav li {
 	display: inline;
 	text-align: right;
 	padding: 0.5em;
+	height: 2em;
 }
 
 nav li a:hover {
 	color: hsl(0, 0%, 85%);
+	background-color: hsla(131, 22%, 40%, 0.7);
 }
 
 nav li a {
@@ -48,7 +50,10 @@ nav li a {
 	color: #eee;
 	font-size: 3em;
 	font-family: Anton;
-	transition: color 0.3s;
+	text-align: center;
+	padding: 0.1em 0.3em;
+	border-radius: 0.4em;
+	transition: background-color 0.4s, color 0.3s;
 }
 
 .cardsdiv {
