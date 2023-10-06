@@ -6,8 +6,7 @@ body {
 }
 
 header {
-	/* background-image: linear-gradient(hsla(0, 0%, 50%, 50%), hsla(0, 0%, 50%, 30%)); */
-	background-color: #8ECAD1;
+	background-image: linear-gradient(hsl(186, 42%, 59%), hsl(186, 42%, 69%));
 	border-radius: 0 0 15% 3%;
 	display: flex;
 	justify-content: space-between;
@@ -27,7 +26,7 @@ header img {
 }
 
 .logo:hover {
-	filter: brightness(80%);
+	filter: brightness(88%);
 }
 
 nav {

@@ -463,3 +463,25 @@ input[type=text], select, textarea {
 	font-weight: bold;
 	padding: 0.6em 1.8em;
 }
+
+/* Back arrow */
+
+.backarrow {
+	width: auto;
+	height: auto;
+	border-radius: 1em;	
+	position: fixed;
+	bottom: 0.5em;
+	left: 0.7em;
+	background-color: none;
+	transition: background-color 0.3s;
+}
+
+.backarrow:hover {
+	background-color: hsla(0, 0%, 0%, 0.25);
+}
+
+.backarrow img {
+	width: 100px;
+	padding: 1em 1em 0.6em 1em;
+}

@@ -11,7 +11,7 @@
 
 		<div class="cardsdiv">
 			<div class="card">
-				<a href="portfolio.php">
+				<a href="assets/my-bike-sold/index.html">
 					<img src="assets/images/my-bike-sold.png" alt="my bike sold site">
 						
 					<h3>My&nbsp;Bike&nbsp;Sold</h3>
