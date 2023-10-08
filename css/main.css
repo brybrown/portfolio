@@ -78,8 +78,7 @@ nav li a {
 
 .card h3 {
 	font-size: 3.5em;
-	/* padding-top: 0.5em; */
-	/* padding-bottom: 0.25em; */
+	font-size: 3.6vw;
 	padding: 0.4em 0.5em 0.25em 0.5em;
 	margin: 0;
 	font-family: 'Bakbak One';
@@ -95,7 +94,7 @@ nav li a {
 }
 
 .card:hover h3 {
-	color: #75a57e;
+	color: hsl(131, 31%, 55%);
 }
 
 .card:hover img {

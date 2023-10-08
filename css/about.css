@@ -6,4 +6,10 @@
 
 .about h3 {
     font-size: 5em;
+    font-family: Gruppo;
+    margin-bottom: 0.2em;
+}
+
+.about hr {
+    width: 40%;
 }
