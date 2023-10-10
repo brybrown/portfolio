@@ -23,7 +23,7 @@
 				</div>
 				
 				<div class="card">
-					<a href="back.php">
+					<a href="skills.php">
 						<img src="assets/images/frog.png" alt="paw prints">
 
 						<h3>Skills</h3>
