@@ -24,7 +24,7 @@
 				
 				<div class="card">
 					<a href="back.php">
-						<img src="assets/images/prints.png" alt="paw prints">
+						<img src="assets/images/frog.png" alt="paw prints">
 
 						<h3>Skills</h3>
 					</a>
