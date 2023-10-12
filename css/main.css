@@ -68,12 +68,14 @@ nav li a {
 	text-align: center;
 	height: auto;
 	margin-top: 4em;
-	transition: color 0.3s, background-color 0.3s;
+	transition: color 0.3s, background-color 0.3s, box-shadow 0.2s;
 }
 
 .card:hover {
 	color: hsl(0, 0%, 20%);
 	background-color: hsl(0, 0%, 80%);
+
+	box-shadow: 5px 5px 7px rgba(180, 180, 180, 0.25);
 }
 
 .card h3 {
@@ -98,7 +100,7 @@ nav li a {
 }
 
 .card:hover img {
-	filter: brightness(50%);
+	filter: brightness(60%);
 }
 
 .card a {
