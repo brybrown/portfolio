@@ -13,6 +13,12 @@
 
 		<main>
 
+			<section class="hero">
+				<!-- <img src="assets/images/stuff.jpg"> -->
+
+				<h1>Bryson Brown</h1>
+			</section>
+		
 			<div class="cardsdiv">
 				<div class="card">
 					<a href="portfolio.php">
@@ -31,9 +37,13 @@
 				</div>
 			</div>
 
-			<?php
-				require "helpful-html/about.html";
-			?>
+			<section class="about" id="aboutme">
+				<h3>About Me</h3>
+
+				<hr>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt neque sed lacus convallis ultrices. Sed dignissim, sapien eu fermentum sollicitudin, lorem arcu bibendum lacus, ut tempor justo nisl at eros. Duis ac felis est. Mauris convallis finibus efficitur. Donec in enim quis turpis ultrices volutpat. Vivamus ac nisi id nunc cursus posuere. Sed vel urna vestibulum justo fringilla posuere nec semper odio. Donec luctus, lectus id accumsan suscipit, lorem urna convallis dolor, vitae consequat tellus ipsum et lorem.</p>
+			</section>
 
 		</main>
 	</body>
