@@ -22,20 +22,3 @@
 	font-size: 1.7em;
 	line-height: 1.3em;
 }
-
-#about a:hover .about {
-	animation-name: cardsout;
-	animation-duration: 2s;
-}
-
-@keyframes cardsout {
-	from {
-		margin-right: inherit;
-		color: white;
-	}
-
-	to {
-		margin-right: 200%;
-		color: red;
-	}
-}
