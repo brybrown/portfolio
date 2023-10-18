@@ -24,7 +24,6 @@
 			<div class="card">
 				<a href="assets/my-bike-sold/index.html">
 					<img src="assets/images/my-bike-sold.png" alt="my bike sold site">
-					<!-- TODO: snip new image that is wider -->
 					<h3 style="padding-top: 0.3em;">My&nbsp;Bike Sold</h3>
 				</a>
 			</div>

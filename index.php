@@ -14,8 +14,6 @@
 		<main>
 
 			<section class="hero">
-				<!-- <img src="assets/images/stuff.jpg"> -->
-
 				<h1>Bryson Brown</h1>
 			</section>
 		

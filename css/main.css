@@ -58,19 +58,20 @@ nav li a {
 }
 
 .hero {
-	background-image: url("assets/images/stuff.jpg");
+	background-image: url("../assets/images/stuff3.jpg");
 	width: 100%;
-	height: 40vh;
-	/* background-color: white; */
+	height: 50vh;
 	background-size: cover;
+	translate: 0 -3em;
+	z-index: -1;
+
+	background-color: white;
 }
 
-.hero img {
-	width: 100%;
-	filter: brightness(50%);
-	position: relative;
-	bottom: 6vh;
-	z-index: -1;
+.hero h1 {
+	color: #eee;
+	font-size: 4em;
+	font-family: Kalam;
 }
 
 .cardsdiv {
