@@ -9,16 +9,9 @@
 			require "helpful-html/headerbar.html";
 		?>
 
-		<style>
-			#portfolio a {
-				background-color: hsl(131, 22%, 50%);
-				border-radius: 0.4em;
-			}
+		<section class="hero">
 
-			#portfolio:hover a {
-				background-color: hsla(131, 22%, 40%, 0.7);
-			}
-		</style>
+		</section>
 
 		<div class="cardsdiv">
 			<div class="card">
