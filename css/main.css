@@ -60,7 +60,7 @@ nav li a {
 }
 
 .hero {
-	background-image: url("../assets/images/stuff.jpg"), linear-gradient(rgba(12, 12, 16, 0.5) 0%, rgba(12, 12, 16, 0.65) 93%, rgba(12, 12, 16, 1) 97%);
+	background-image: url("../assets/images/stuff2.jpg"), linear-gradient(rgba(12, 12, 16, 0.5) 0%, rgba(12, 12, 16, 0.65) 93%, rgba(12, 12, 16, 1) 97%);
 	background-size: cover;
 	background-position: center;
 	background-blend-mode: darken;
@@ -76,8 +76,8 @@ nav li a {
 	font-family: Kalam;
 
 	position: absolute;
-	top: 25%;
-	left: 14%;
+	top: 2.5em;
+	left: 4em;
 }
 
 .hero h3 {
@@ -86,13 +86,14 @@ nav li a {
 	font-family: Kalam;
 
 	position: absolute;
-	top: 45%;
-	left: 14%;
+	top: 13.25em;
+	left: 11.6em;
 }
 
 .cardsdiv {
 	display: flex;
 	justify-content: space-evenly;
+	margin: 4em 0 6em 0;
 }
 
 .card {
@@ -101,7 +102,6 @@ nav li a {
 	border-radius: 10% 10% 3% 10%;
 	text-align: center;
 	height: auto;
-	margin-top: 4em;
 	transition: color 0.3s, background-color 0.3s, box-shadow 0.2s, translate 0.3s;
 }
 
@@ -140,4 +140,17 @@ nav li a {
 .card a {
 	text-decoration: none;
 	color: inherit;
+}
+
+footer {
+	width: 100%;
+	background-image: linear-gradient(hsl(186, 42%, 69%), hsl(186, 42%, 63%));
+}
+
+footer p {
+	color: #eee;
+	font-family: Gruppo;
+	font-size: 2em;
+	padding: 0.5em 1em;
+	margin: 0;
 }

@@ -16,6 +16,15 @@
 
 				<h3>i swear i know what i'm doing</h3>
 			</section>
+
+			<section class="about" id="aboutme">
+				<!-- <h3>About Me</h3>
+
+				<hr> -->
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt neque sed lacus convallis ultrices. Sed dignissim, sapien eu fermentum sollicitudin, lorem arcu bibendum lacus, ut tempor justo nisl at eros. Duis ac felis est. Mauris convallis finibus efficitur. Donec in enim quis turpis ultrices volutpat.
+				</p>
+			</section>
 		
 			<div class="cardsdiv">
 				<div class="card">
@@ -35,15 +44,11 @@
 				</div>
 			</div>
 
-			<section class="about" id="aboutme">
-				<h3>About Me</h3>
-
-				<hr>
-
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt neque sed lacus convallis ultrices. Sed dignissim, sapien eu fermentum sollicitudin, lorem arcu bibendum lacus, ut tempor justo nisl at eros. Duis ac felis est. Mauris convallis finibus efficitur. Donec in enim quis turpis ultrices volutpat.
-				</p>
-			</section>
-
 		</main>
+
+		<footer>
+			<p>&copy; <?php echo date("Y"); ?> Bryson Brown</p>
+		</footer>
+
 	</body>
 </html>
