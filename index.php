@@ -5,9 +5,7 @@
 	?>
 
 	<body>
-		<?php
-			require "helpful-html/headerbar.html";
-		?>
+		<?php require "helpful-html/headerbar.html";?>
 
 		<link rel="stylesheet" href="css/about.css">
 
@@ -15,6 +13,8 @@
 
 			<section class="hero">
 				<h1>Bryson Brown</h1>
+
+				<h3>i swear i know what i'm doing</h3>
 			</section>
 		
 			<div class="cardsdiv">
