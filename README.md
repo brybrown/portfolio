@@ -1,3 +1,3 @@
-# portfolio
+# Portfolio
 
-Personal portfolio website.
+Professional portfolio website to showcase my stuff.

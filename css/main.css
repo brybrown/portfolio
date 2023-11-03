@@ -7,7 +7,6 @@ body {
 
 header {
 	background-image: linear-gradient(hsl(186, 42%, 59%), hsl(186, 42%, 69%));
-	border-radius: 0 0 15% 3%;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: nowrap;
@@ -145,6 +144,9 @@ nav li a {
 footer {
 	width: 100%;
 	background-image: linear-gradient(hsl(186, 42%, 69%), hsl(186, 42%, 63%));
+
+	display: flex;
+	justify-content: space-between;
 }
 
 footer p {
@@ -153,4 +155,37 @@ footer p {
 	font-size: 2em;
 	padding: 0.5em 1em;
 	margin: 0;
+}
+
+footer .footerflex {
+	display: flex;
+	width: 15%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+footer a {
+	height: 45px;
+	cursor: pointer;
+}
+
+footer img {
+	width: 45px;
+	transition: filter 0.35s;
+}
+
+footer .linkedin {
+	filter: grayscale(100%) brightness(30%);
+}
+
+footer a:hover .linkedin {
+	filter: grayscale(100%) brightness(250%);
+}
+
+footer .github {
+	filter: invert(0%) brightness(70%);
+}
+
+footer a:hover .github {
+	filter: invert(100%) brightness(115%);
 }

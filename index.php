@@ -46,9 +46,9 @@
 
 		</main>
 
-		<footer>
-			<p>&copy; <?php echo date("Y"); ?> Bryson Brown</p>
-		</footer>
+		<?php
+			include "helpful-html/footer.php";
+		?>
 
 	</body>
 </html>

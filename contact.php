@@ -9,6 +9,8 @@
 			require "helpful-html/headerbar.html";
 		?>
 
-		
+		<?php
+			include "helpful-html/footer.php";
+		?>
 	</body>
 </html>

@@ -9,8 +9,16 @@
 			require "helpful-html/headerbar.html";
 		?>
 
-		<section class="hero">
+		<style>
+			.hero {
+				background-image: url("../assets/images/stuff2.jpg"), linear-gradient(rgba(12, 12, 16, 0.5) 0%, rgba(12, 12, 16, 0.65) 93%, rgba(12, 12, 16, 1) 97%);
+			}
+		</style>
 
+		<section class="hero">
+			<h1>Portfolio</h1>
+
+			<h3>i've done stuff</h3>
 		</section>
 
 		<div class="cardsdiv">
@@ -21,5 +29,10 @@
 				</a>
 			</div>
 		</div>
+
+		<?php
+			include "helpful-html/footer.php";
+		?>
+
 	</body>
 </html>
