@@ -41,9 +41,6 @@ nav li {
 
 nav li a:hover {
 	color: hsl(0, 0%, 85%);
-	/* text-decoration: underline; */
-
-	/* background-color: hsla(131, 22%, 40%, 0.7); */
 }
 
 nav li a {
@@ -56,6 +53,12 @@ nav li a {
 	padding: 0em 0.3em 0.0em 0.3em;
 	border-radius: 0.4em;
 	transition: background-color 0.4s, color 0.3s;
+
+	height: min-content;
+}
+
+nav li img {
+	width: 80px;
 }
 
 .hero {
@@ -96,7 +99,7 @@ nav li a {
 }
 
 .card {
-	width: 20%;
+	width: 17%;
 	background-color: hsl(0, 0%, 90%);
 	border-radius: 10% 10% 3% 10%;
 	text-align: center;
@@ -114,7 +117,7 @@ nav li a {
 .card h3 {
 	font-size: 3.5em;
 	font-size: 3.6vw;
-	padding: 0.4em 0.5em 0.25em 0.5em;
+	padding: 0.25em 0.5em 0.25em 0.5em;
 	margin: 0;
 	font-family: Gruppo, 'Bakbak One';
 	color: #6FD180;
@@ -151,6 +154,7 @@ footer {
 
 footer p {
 	color: #eee;
+	color:rgb(12, 12, 16);
 	font-family: Gruppo;
 	font-size: 2em;
 	padding: 0.5em 1em;
