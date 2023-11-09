@@ -69,7 +69,19 @@ nav a:hover {
 	background-color: #eee;
 }
 
-nav a:hover img {
+nav {
+	pointer-events: none;
+}
+
+nav a {
+	pointer-events: auto;
+}
+
+nav:hover a, nav:hover a img {
+	height: 50px;
+}
+
+nav a:hover img, nav a:hover {
 	height: 60px;
 }
 

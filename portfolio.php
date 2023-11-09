@@ -4,6 +4,8 @@
 		require "helpful-html/head.html";
 	?>
 
+	<link rel="stylesheet" href="css/portfolio.css">
+
 	<body>
 		<?php
 			require "helpful-html/headerbar.html";
