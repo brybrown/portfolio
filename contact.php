@@ -10,7 +10,7 @@
 		?>
 
 		<?php
-			include "helpful-html/footer.php";
+			require "helpful-html/footer.php";
 		?>
 	</body>
 </html>

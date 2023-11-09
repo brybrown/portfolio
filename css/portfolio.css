@@ -1,3 +1,34 @@
 .card {
-    width: 40%;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	border-radius: 7% 10% 7% 13%;
+}
+
+.card img {
+	width: 55%;
+	border-radius: 7% 10% 0 13%;
+}
+
+.cardtext {
+	width: 50%;
+}
+
+.cardtext h3 {
+	font-size: 3em;
+	margin: 4px 0;
+}
+
+.cardtext p {
+	color: #4FB160;
+	font-family: Gruppo;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 1em 5px;
+	transition: color 0.3s;
+}
+
+.card:hover p {
+	color: hsl(131, 31%, 45%);
 }

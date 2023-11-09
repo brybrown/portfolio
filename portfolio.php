@@ -24,16 +24,29 @@
 		</section>
 
 		<div class="cardsdiv">
-			<div class="card">
-				<a href="assets/my-bike-sold/index.html">
-					<img src="assets/images/my-bike-sold.png" alt="my bike sold site">
-					<h3 style="padding-top: 0.3em;">My&nbsp;Bike Sold</h3>
-				</a>
-			</div>
+
+			<a href="assets/my-bike-sold/index.html" class="card">
+				<img src="assets/images/my-bike-sold2.png" alt="my bike sold site">
+				<div class="cardtext">
+					<h3>My Bike Sold</h3>
+
+					<p>A CE credit demo website done for a fake motorcycle selling company.</p>
+				</div>
+			</a>
+
+			<a href="https://daviscatalystehr.com" target="_blank" class="card">
+				<img src="assets/images/charting.png" alt="catalyst charting">
+				<div class="cardtext">
+					<h3>Catalyst Charting</h3>
+
+					<p>A medical charting software build for the medical students at the Catalyst Center.</p>
+				</div>
+			</a>
+
 		</div>
 
 		<?php
-			include "helpful-html/footer.php";
+			require "helpful-html/footer.php";
 		?>
 
 	</body>
