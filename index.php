@@ -39,7 +39,7 @@
 					<a href="skills.php">
 						<img src="assets/images/frog.jpg" alt="frog">
 
-						<h3>Skills</h3>
+						<h3>Contact</h3>
 					</a>
 				</div>
 			</div>

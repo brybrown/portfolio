@@ -151,7 +151,7 @@ nav a:hover img, nav a:hover {
 .card img {
 	width: 100%;
 	border-radius: 10% 10% 0% 10%;
-	filter: brightness(75%);
+	filter: brightness(75%) blur(0);
 	transition: filter 0.3s;
 }
 
@@ -160,7 +160,7 @@ nav a:hover img, nav a:hover {
 }
 
 .card:hover img {
-	filter: brightness(60%);
+	filter: brightness(60%) blur(0.9px);
 }
 
 .card a {
