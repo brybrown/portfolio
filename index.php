@@ -37,7 +37,7 @@
 				
 				<div class="card">
 					<a href="skills.php">
-						<img src="assets/images/frog.png" alt="paw prints">
+						<img src="assets/images/frog.jpg" alt="frog">
 
 						<h3>Skills</h3>
 					</a>
