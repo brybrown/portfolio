@@ -35,54 +35,52 @@ nav {
 }
 
 nav a {
-	color: #eee;
+	color: #222;
 	font-size: 3em;
 	height: 53.86px;
-	margin: 0 0.5em;
+	margin: 0 0.8em;
+	text-decoration: none;
+	font-weight: 1000;
+	font-family: Gruppo;
+	line-height: 100%;
 
-	transition: background-color 0.35s, height 0.35s;
-}
-
-nav a img {
-	height: 53.86px;
-
-	transition: height 0.35s;
+	transition: color 0.35s;
 }
 
 nav a:hover {
-	height: 60px;
+	color: #eee;
 }
 
-.port {
+nav a p {
+	display: inline-block;
+	translate: 0px 0px;
+	margin: 0;
+}
+
+nav a img {
+	width: 80px;
+	margin-left: 0.3em;
+
+	transition: height 0.35s, background-color 0.35s;
+}
+
+.port img {
 	border-radius: 50px;
+	width: 53.86px;
+	height: 53.86px;
 }
 
-.port:hover {
+.port:hover img {
 	background-color: #eee;
 }
 
-.con {
-	border-radius: 15px;
+.con img {
+	border-radius: 10px;
 }
 
-.con:hover {
+.con:hover img {
 	background-color: #eee;
-}
-
-nav {
-	pointer-events: none;
-}
-
-nav a {
-	pointer-events: auto;
-}
-
-nav:hover a, nav:hover a img {
-	height: 50px;
-}
-
-nav a:hover img, nav a:hover {
-	height: 60px;
+	border-radius: 10px;
 }
 
 .hero {
