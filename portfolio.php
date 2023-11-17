@@ -18,9 +18,11 @@
 		</style>
 
 		<section class="hero">
-			<h1>Portfolio</h1>
+			<div class="herotext">
+				<h1>Portfolio</h1>
 
-			<h3>i've done stuff</h3>
+				<h3>i've done stuff</h3>
+			</div>
 		</section>
 
 		<div class="cardsdiv">
