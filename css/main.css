@@ -38,13 +38,36 @@ nav a {
 	color: #222;
 	font-size: 3em;
 	height: 53.86px;
-	margin: 0 0.8em;
+	margin: 0 0.5em;
+	padding: 0.2em 0.3em;
 	text-decoration: none;
 	font-weight: 1000;
 	font-family: Gruppo;
 	line-height: 100%;
+	border-radius: 12px;
+	position: relative;
+	z-index: 1;
 
 	transition: color 0.35s;
+}
+
+nav a::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transition: opacity 0.35s;
+	z-index: -1;
+	opacity: 0;
+	border-radius: 12px;
+	background: hsl(186, 42%, 59%);
+	background: linear-gradient(hsla(186, 42%, 59%, 0.5), hsla(186, 42%, 59%, 1));
+}
+
+nav a:hover::before {
+	opacity: 1;
 }
 
 nav a:hover {
@@ -53,15 +76,19 @@ nav a:hover {
 
 nav a p {
 	display: inline-block;
-	translate: 0px 0px;
+	translate: 0px -12px;
 	margin: 0;
 }
 
 nav a img {
 	width: 80px;
-	margin-left: 0.3em;
+	margin-left: 0.1em;
 
-	transition: height 0.35s, background-color 0.35s;
+	transition: height 0.35s, background-color 0.35s, filter 0.35s;
+}
+
+nav a:hover img {
+	filter: invert(100%) brightness(102%);
 }
 
 .port img {
@@ -70,16 +97,7 @@ nav a img {
 	height: 53.86px;
 }
 
-.port:hover img {
-	background-color: #eee;
-}
-
 .con img {
-	border-radius: 10px;
-}
-
-.con:hover img {
-	background-color: #eee;
 	border-radius: 10px;
 }
 
@@ -94,24 +112,26 @@ nav a img {
 	height: 60vh;
 }
 
+.herotext {
+	width: 60%;
+	height: 100%;
+	text-align: center;
+}
+
 .hero h1 {
 	color: #eee;
 	font-size: 6em;
 	font-family: Kalam;
-
-	position: absolute;
-	top: 2.5em;
-	left: 4em;
+	margin: 0;
+	padding-top: 23vh;
 }
 
 .hero h3 {
 	color: #eee;
 	font-size: 2em;
 	font-family: Kalam;
-
-	position: absolute;
-	top: 13.25em;
-	left: 11.6em;
+	margin: 0.3em;
+	translate: 1em 0;
 }
 
 .cardsdiv {
@@ -123,6 +143,7 @@ nav a img {
 .card {
 	width: 17%;
 	background-color: hsl(0, 0%, 90%);
+	background-color: hsl(186, 42%, 69%);
 	border-radius: 10% 10% 3% 10%;
 	text-align: center;
 	height: auto;
@@ -131,7 +152,7 @@ nav a img {
 
 .card:hover {
 	color: hsl(0, 0%, 20%);
-	background-color: hsl(0, 0%, 80%);
+	background-color: hsl(186, 27%, 49%);
 	box-shadow: 5px 5px 7px rgba(180, 180, 180, 0.25);
 	translate: -3px -3px;
 }
@@ -142,7 +163,7 @@ nav a img {
 	padding: 0.25em 0.5em 0.25em 0.5em;
 	margin: 0;
 	font-family: Gruppo, 'Bakbak One';
-	color: #6FD180;
+	color: #222;
 	transition: color 0.3s;
 }
 
@@ -154,7 +175,7 @@ nav a img {
 }
 
 .card:hover h3 {
-	color: hsl(131, 31%, 55%);
+	color: #333;
 }
 
 .card:hover img {

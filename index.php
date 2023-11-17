@@ -12,9 +12,11 @@
 		<main>
 
 			<section class="hero">
-				<h1>Bryson Brown</h1>
+				<div class="herotext">
+					<h1>Bryson Brown</h1>
 
-				<h3>i swear i know what i'm doing</h3>
+					<h3>i swear i know what i'm doing</h3>
+				</div>
 			</section>
 
 			<section class="about" id="aboutme">
@@ -29,7 +31,7 @@
 			<div class="cardsdiv">
 				<div class="card">
 					<a href="portfolio.php">
-						<img src="assets/images/prints.png" alt="paw prints">
+						<img src="assets/images/printsblue.png" alt="paw prints">
 						
 						<h3>Portfolio</h3>
 					</a>
@@ -37,7 +39,7 @@
 				
 				<div class="card">
 					<a href="skills.php">
-						<img src="assets/images/frog.jpg" alt="frog">
+						<img src="assets/images/frogblue.jpg" alt="frog">
 
 						<h3>Contact</h3>
 					</a>

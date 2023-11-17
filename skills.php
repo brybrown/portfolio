@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php 
+	<?php 
 		require "helpful-html/head.html";
 	?>
 
-    <body>
-        
-        <?php 
-            require "helpful-html/headerbar.html";
-        ?>
+	<body>
+		
+		<?php 
+			require "helpful-html/headerbar.html";
+		?>
 
-        <?php
-            require "helpful-html/footer.php";
-        ?>
+		<?php
+			require "helpful-html/footer.php";
+		?>
 
-    </body>
+	</body>
 </html>
