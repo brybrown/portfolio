@@ -12,7 +12,7 @@
 			<img src="assets/images/socials/linkedin.png" class="linkedin">
 		</a>
 
-		<a href="https://github.com/brybrown" target="_blank" class="gita">
+		<a href="https://github.com/brybrown" target="_blank" class="githuba">
 			<img src="assets/images/socials/github.png" class="github">
 		</a>
 	</div>
