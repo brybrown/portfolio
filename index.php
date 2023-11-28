@@ -21,9 +21,6 @@
 
 			<section class="about" id="aboutme">
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt neque sed lacus convallis ultrices. Sed dignissim, sapien eu fermentum sollicitudin, lorem arcu bibendum lacus, ut tempor justo nisl at eros. Duis ac felis est. Mauris convallis finibus efficitur. Donec in enim quis turpis ultrices volutpat.
-				</p>
-
 				<p>I'm a student at the Catalyst Center, in Davis County, Utah. I write clean, readable code and design beautiful, elegant websites.</p>
 
 			</section>

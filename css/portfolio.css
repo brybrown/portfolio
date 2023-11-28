@@ -21,14 +21,29 @@
 }
 
 .cardtext p {
-	color: #4FB160;
+	color: #444;
 	font-family: Gruppo;
 	font-weight: bold;
 	font-size: 1.5em;
-	margin: 1em 5px;
-	transition: color 0.3s;
+	margin: 0.4em 5px;
 }
 
-.card:hover p {
-	color: hsl(131, 11%, 45%);
+@media only screen and (max-width: 800px) {
+	.cardsdiv {
+		flex-direction: column;
+	}
+
+	.card {
+		width: 75%;
+		margin: 3vh auto;
+	}
+
+	.cardtext h3 {
+		font-size: 2em;
+	}
+
+	.cardtext p {
+		font-size: 1.25em;
+		margin: 0.4em 7px;
+	}
 }

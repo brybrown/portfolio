@@ -27,21 +27,21 @@
 
 		<div class="cardsdiv">
 
-			<a href="assets/my-bike-sold/index.html" class="card">
-				<img src="assets/images/my-bike-sold2.png" alt="my bike sold site">
-				<div class="cardtext">
-					<h3>My Bike Sold</h3>
-
-					<p>A CE credit demo website done for a fake motorcycle selling company.</p>
-				</div>
-			</a>
-
 			<a href="https://daviscatalystehr.com" target="_blank" class="card">
 				<img src="assets/images/charting.png" alt="catalyst charting">
 				<div class="cardtext">
 					<h3>Catalyst Charting</h3>
 
 					<p>A medical charting software build for the medical students at the Catalyst Center.</p>
+				</div>
+			</a>
+
+			<a href="assets/my-bike-sold/index.html" class="card">
+				<img src="assets/images/my-bike-sold2.png" alt="my bike sold site">
+				<div class="cardtext">
+					<h3>My Bike Sold</h3>
+
+					<p>A CE credit demo website done for a fake motorcycle selling company.</p>
 				</div>
 			</a>
 
