@@ -24,11 +24,12 @@
 	.menuicon {
 		display: block;
 		right: 0;
-		margin: auto 15px;
+		margin: auto 15px auto auto;
 		width: 55px;
 		height: 55px;
 		filter: invert(0) brightness(100%);
 		cursor: pointer;
+		z-index: 6;
 
 		transition: filter 0.35s;
 	}
@@ -37,12 +38,43 @@
 		filter: invert(100%) brightness(107%);
 	}
 
+	.menuflex {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+
+		margin-top: 9.5vh;
+	}
+
 	.menu {
 		position: fixed;
 		width: 100%;
 		height: 100%;
 		background-image: linear-gradient(hsl(186, 42%, 59%), hsl(186, 42%, 69%));
 		z-index: 5;
+	}
+
+	.menu a {
+		font-size: 3em;
+		font-family: Gruppo;
+		font-weight: bold;
+		text-decoration: none;
+		color: #eee;
+		margin: 2.5vh 10vw;
+
+		transition: color 0.3s;
+	}
+
+	.menu a:hover {
+		color: #ddd;
+	}
+
+	.menu hr {
+		width: 60%;
+		height: 2px;
+		background-color: #444;
+		border: none;
+		margin-right: 10vw;
 	}
 
 	.hero h1 {

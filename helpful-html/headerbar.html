@@ -17,11 +17,52 @@
 			<img src="assets/images/icons/contact.png" alt="contact me">
 		</a>
 
-		<img src="assets/images/icons/menu.png" alt="menu icon" class="menuicon">
+		<img src="assets/images/icons/menu.png" alt="menu icon" class="menuicon" onclick="menu()">
 
 	</nav>
 
-	<div class="menu">
+	<script>
+		let menushowing = false;
 		
+		function menu() {
+			const menu = document.getElementsByClassName("menu")[0];
+			const menuicon = document.getElementsByClassName("menuicon")[0];
+			const menuflex = document.getElementsByClassName("menuflex")[0];
+
+			const main = document.getElementsByTagName("main")[0];
+			const footer = document.getElementsByTagName("footer")[0];
+
+			if (menushowing) {
+				menu.style.display = "none";
+				menuicon.style.position = "static"
+				menuicon.style.marginTop = "auto";
+				menuflex.style.display = "flex";
+				main.style.display = "block";
+				footer.style.display = "flex";
+
+				menushowing = false;
+			} else {
+				menu.style.display = "block";
+				menuicon.style.position = "fixed";
+				menuicon.style.marginTop = "17.5px";
+				menuflex.style.display = "flex";
+
+				main.style.display = "none";
+				footer.style.display = "none";
+
+				menushowing = true;
+			}
+		}
+	</script>
+
+	<div class="menu">
+		<div class="menuflex">
+			<a href="index.php">Home</a>
+			<hr>
+			<a href="portfolio.php">Portfolio</a>
+			<hr>
+			<a href="contact.php">Contact Me</a>
+		</div>
 	</div>
+
 </header>

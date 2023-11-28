@@ -122,6 +122,10 @@ nav a:hover img {
 	display: none;
 }
 
+.menuflex {
+	display: none;
+}
+
 .hero {
 	background-image: url("../assets/images/stuff2.jpg"), linear-gradient(rgba(12, 12, 16, 0.5) 0%, rgba(12, 12, 16, 0.65) 93%, rgba(12, 12, 16, 1) 97%);
 	background-size: cover;
@@ -252,6 +256,10 @@ footer a:hover .linkedin {
 
 footer .github {
 	filter: invert(0%) brightness(70%);
+	border-radius: 60px;
+}
+footer .gita {
+	border-radius: 60px;
 }
 
 footer a:hover .github {
