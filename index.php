@@ -21,7 +21,7 @@
 
 			<section class="about" id="aboutme">
 
-				<p>I'm a student at the Catalyst Center, in Davis County, Utah. I write clean, readable code and design beautiful, elegant websites.</p>
+				<p>I'm a student at the Catalyst Center, in Davis County, Utah. I write clean, readable code and design beautiful, elegant websites. My hobbies include game development in Unity and sim racing.</p>
 
 			</section>
 		

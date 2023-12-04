@@ -1,0 +1,54 @@
+.hero {
+    background-image: url("../assets/images/contact.png"), linear-gradient(rgba(12, 12, 16, 0.5) 0%, rgba(12, 12, 16, 0.65) 93%, rgba(12, 12, 16, 1) 97%);
+}
+
+.card {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+    text-align: center;
+	border-radius: 15px 11px 10px 13px;
+}
+
+.card img {
+	width: 55%;
+	border-radius: 12px 0 15px 11px;
+}
+
+.cardtext {
+	width: 50%;
+}
+
+.cardtext h3 {
+	font-size: 3em;
+	margin: 4px 0;
+}
+
+.cardtext p {
+	color: #444;
+	font-family: Gruppo;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 0.4em 5px;
+}
+
+@media only screen and (max-width: 800px) {
+	.cardsdiv {
+		flex-direction: column;
+	}
+
+	.card {
+		width: 75%;
+		margin: 3vh auto;
+	}
+
+	.cardtext h3 {
+		font-size: 2em;
+	}
+
+	.cardtext p {
+		font-size: 1.25em;
+		margin: 0.4em 7px;
+	}
+}
