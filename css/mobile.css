@@ -42,15 +42,17 @@
 		display: flex;
 		flex-direction: column;
 		align-items: end;
+		background-image: linear-gradient(hsl(186, 42%, 59%), hsl(186, 42%, 69%));
 
-		margin-top: 9.5vh;
+		padding: 9.5vh 0 0 7vw;
 	}
 
 	.menu {
 		position: fixed;
-		width: 100%;
+		justify-content: space-between;
+		width: 100vw;
 		height: 100%;
-		background-image: linear-gradient(hsl(186, 42%, 59%), hsl(186, 42%, 69%));
+		/* background-image: linear-gradient(hsl(186, 42%, 59%), hsl(186, 42%, 69%)); */
 		z-index: 5;
 	}
 
@@ -60,7 +62,9 @@
 		font-weight: bold;
 		text-decoration: none;
 		color: #eee;
-		margin: 2.5vh 10vw;
+		width: max-content;
+		margin: 2.5vh 10vw 2.5vh 10vw;
+		text-align: right;
 
 		transition: color 0.3s;
 	}
@@ -75,6 +79,14 @@
 		background-color: #444;
 		border: none;
 		margin-right: 10vw;
+	}
+
+	.menushade {
+		/* width: 20vw; */
+		width: 100%;
+		height: 100vh;
+		display: none;
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 
 	.hero h1 {

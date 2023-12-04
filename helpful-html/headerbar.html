@@ -28,27 +28,28 @@
 			const menu = document.getElementsByClassName("menu")[0];
 			const menuicon = document.getElementsByClassName("menuicon")[0];
 			const menuflex = document.getElementsByClassName("menuflex")[0];
+			const menushade = document.getElementsByClassName("menushade")[0];
 
 			const main = document.getElementsByTagName("main")[0];
 			const footer = document.getElementsByTagName("footer")[0];
+			const body = document.getElementsByTagName("body")[0];
 
 			if (menushowing) {
 				menu.style.display = "none";
 				menuicon.style.position = "static"
 				menuicon.style.marginTop = "auto";
 				menuflex.style.display = "flex";
-				main.style.display = "block";
-				footer.style.display = "flex";
+				menushade.style.display = "none";
+				body.style.overflow = "visible";
 
 				menushowing = false;
 			} else {
-				menu.style.display = "block";
+				menu.style.display = "flex";
 				menuicon.style.position = "fixed";
 				menuicon.style.marginTop = "17.5px";
 				menuflex.style.display = "flex";
-
-				main.style.display = "none";
-				footer.style.display = "none";
+				menushade.style.display = "inline";
+				body.style.overflow = "hidden";
 
 				menushowing = true;
 			}
@@ -56,6 +57,8 @@
 	</script>
 
 	<div class="menu">
+		<div class="menushade"></div>
+		
 		<div class="menuflex">
 			<a href="index.php">Home</a>
 			<hr>
