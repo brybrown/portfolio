@@ -20,13 +20,27 @@
 		</section>
 
 		<div class="cardsdiv">
-			<a href="mailto:26bbrown5@go.dsdmail.net" class="card">
+	
+			<div class="card">
 				<img src="assets/images/email.jpg" alt="frog">
 
 				<div class="cardtext">
 					<h3>Email</h3>
+
+					<p><a href="mailto:26bbrown5@go.dsdmail.net">26bbrown5<br>@go.dsdmail.net</a></p>
 				</div>
-			</a>
+			</div>
+
+			<div class="card">
+				<img src="assets/images/email.jpg" alt="frog">
+
+				<div class="cardtext">
+					<h3>That's It</h3>
+
+					<p>I'm not giving you my phone number lol</p>
+				</div>
+			</div>
+
 		</div>
 
 		<?php
