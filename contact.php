@@ -11,6 +11,12 @@
 			require "helpful-html/headerbar.html";
 		?>
 
+		<style>
+			.con {
+				background-color: hsl(186, 68%, 45%);
+			}
+		</style>
+
 		<section class="hero">
 			<div class="herotext">
 				<h1>Get In Touch</h1>
@@ -32,12 +38,12 @@
 			</div>
 
 			<div class="card">
-				<img src="assets/images/email.jpg" alt="frog">
+				<img src="assets/images/pigeon.jpg" alt="pigeon">
 
 				<div class="cardtext">
-					<h3>That's It</h3>
+					<h3>Carrier Pigeon</h3>
 
-					<p>I'm not giving you my phone number lol</p>
+					<p>67.568165 N, 134.472201 E</p>
 				</div>
 			</div>
 

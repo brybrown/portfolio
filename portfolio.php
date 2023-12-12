@@ -15,6 +15,10 @@
 			.hero {
 				background-image: url("../assets/images/stuff2.jpg"), linear-gradient(rgba(12, 12, 16, 0.5) 0%, rgba(12, 12, 16, 0.65) 93%, rgba(12, 12, 16, 1) 97%);
 			}
+
+			.port {
+				background-color: hsl(186, 68%, 45%);
+			}
 		</style>
 
 		<main>

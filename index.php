@@ -9,6 +9,12 @@
 
 		<link rel="stylesheet" href="css/about.css">
 
+		<style>
+			.home {
+				background-color: hsl(186, 68%, 45%);
+			}
+		</style>
+
 		<main>
 
 			<section class="hero">
@@ -30,7 +36,7 @@
 			<div class="cardsdiv">
 				<div class="card">
 					<a href="portfolio.php">
-						<img src="assets/images/printsblue.png" alt="paw prints">
+						<img src="assets/images/code.jpg" alt="code">
 						
 						<h3>Portfolio</h3>
 					</a>
@@ -38,7 +44,7 @@
 				
 				<div class="card">
 					<a href="contact.php">
-						<img src="assets/images/frogblue.jpg" alt="frog">
+						<img src="assets/images/phone.jpg" alt="phone">
 
 						<h3>Contact</h3>
 					</a>

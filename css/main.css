@@ -5,114 +5,102 @@ body {
 	background-color: rgb(12, 12, 16);
 }
 
-header {
-	background-image: linear-gradient(hsl(186, 42%, 59%), hsl(186, 42%, 69%));
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: nowrap;
-	flex-direction: row;
-}
-
-header img {
-	width: 100%;
-}
-
 .logo {
-	margin: 1.3em 3.5em;
-	width: 70px;
-	filter: invert(0%) brightness(100%);
-	transition: filter 0.35s;
+	position: absolute;
+	margin: 2.3em 3.5em;
+	width: max-content;
+	filter: grayscale(0%) brightness(130%) saturate(70%);
+	transition: filter 0.3s;
 
 	border-radius: 40px;
 }
 
 .logo:hover {
-	filter: invert(100%) brightness(107%);
-}
-
-.logo a {
-	display: block;
-	width: fit-content;
-	height: 68.63px;
-	border-radius: 40px;
+	filter: grayscale(100%) brightness(167%) saturate(100%);
 }
 
 .logo img {
-	border-radius: 40px;
+	border-radius: 80px;
+	width: 90px;
 }
 
-/* nav {
-	margin: auto 7em;
+nav {
+	position: fixed;
 	display: flex;
 	justify-content: space-between;
+	flex-direction: column;
+	align-items: flex-end;
+	right: 0;
+	top: 10vh;
 }
 
 nav a {
-	color: #222;
-	font-size: 3em;
-	height: 53.86px;
-	margin: 0 0.5em;
-	padding: 0.2em 0.3em;
+	border-radius: 17px 0 0 17px;
+	margin: 1.5vh 0;
+	height: 60px;
+	background-color: hsl(186, 78%, 65%);
 	text-decoration: none;
-	font-weight: 1000;
-	font-family: Gruppo;
-	line-height: 100%;
-	border-radius: 12px;
-	position: relative;
-	z-index: 1;
+	display: flex;
+	transform: translate(192.25px, 0);
 
-	transition: color 0.35s;
-}
-
-nav a::before {
-	position: absolute;
-	content: "";
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	transition: opacity 0.35s;
-	z-index: -1;
-	opacity: 0;
-	border-radius: 12px;
-	background: hsl(186, 42%, 59%);
-	background: linear-gradient(hsla(186, 42%, 59%, 0.5), hsla(186, 42%, 59%, 1));
-}
-
-nav a:hover::before {
-	opacity: 1;
+	transition: height 0.4s, transform 0.4s;
 }
 
 nav a:hover {
-	color: #eee;
+	height: auto;
+	transform: translate(0, 0);
 }
 
-nav a p {
-	display: inline-block;
-	translate: 0px -12px;
-	margin: 0;
+nav img {
+	height: auto;
+	width: 40px;
+	margin: 10px 15px;
+
+	transition: height 0.4s, width 0.4s;
 }
 
-nav a img {
-	width: 80px;
-	margin-left: 0.1em;
-
-	transition: height 0.35s, background-color 0.35s, filter 0.35s;
+nav .con img {
+	height: 26.91px;
 }
 
-nav a:hover img {
-	filter: invert(100%) brightness(102%);
+nav p {
+	color: #222;
+	font-family: Gruppo;
+	font-weight: bold;
+	font-size: 3em;
+	margin: 5px 10px 5px 0;
 }
 
-.port img {
-	border-radius: 50px;
-	width: 53.86px;
-	height: 53.86px;
+nav .con:hover img {
+	height: 36px;
+	width: 53.45px;
 }
 
-.con img {
-	border-radius: 10px;
-} */
+nav a:hover p {
+	display: inline;
+}
+
+.con {
+	height: 46.92px;
+}
+
+.con p {
+	font-size: 3em;
+
+	transition: font-size 0.4s;
+}
+
+.con:hover {
+	height: 56px;
+}
+
+.con:hover p {
+	font-size: 2.8em;
+}
+
+.home {
+	transform: translate(138px, 0);
+}
 
 .menu {
 	display: none;
@@ -263,70 +251,4 @@ footer .githuba {
 
 footer a:hover .github {
 	filter: invert(100%) brightness(115%);
-}
-
-/* New nav */
-
-nav {
-	position: fixed;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	align-items: flex-end;
-	right: 0;
-	top: 25vh;
-}
-
-nav a {
-	border-radius: 17px 0 0 17px;
-	margin: 3vh 0;
-	height: 60px;
-	background-color: aqua;
-	text-decoration: none;
-	display: flex;
-	transform: translate(192.25px, 0);
-
-	transition: height 0.4s, transform 0.4s;
-}
-
-nav a:hover {
-	height: auto;
-	transform: translate(0, 0);
-}
-
-nav img {
-	height: auto;
-	width: 40px;
-	margin: 10px 15px;
-
-	transition: height 0.4s, width 0.4s;
-}
-
-nav .con img {
-	height: 26.91px;
-}
-
-nav p {
-	color: #222;
-	font-family: Gruppo;
-	font-weight: bold;
-	font-size: 3em;
-	margin: 5px 10px 5px 0;
-}
-
-nav .con:hover img {
-	height: 36px;
-	width: 53.45px;
-}
-
-nav a:hover p {
-	display: inline;
-}
-
-.con {
-	height: 46.92px;
-}
-
-.con:hover {
-	height: 56px;
 }
