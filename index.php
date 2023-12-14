@@ -27,9 +27,9 @@
 
 			<section class="about" id="aboutme">
 
-				<p>I'm a student at the Catalyst Center, in Davis County, Utah. I write clean, readable code and design beautiful, elegant websites. My hobbies include game development in Unity and sim racing.</p>
+				<p>I'm a student at the Catalyst Center, in Davis County, Utah. I write clean, readable code and design beautiful, elegant websites. My hobbies include skiing and developing games in Unity.</p>
 
-				<p>I am fluent in HTML, CSS, Javascript (including NodeJS), PHP, C#, and the art of flexbox.</p>
+				<p>I am fluent in HTML, CSS, Javascript (including NodeJS), PHP, C#, and the enigma of flexbox.</p>
 
 			</section>
 		
