@@ -28,12 +28,22 @@
 		<div class="cardsdiv">
 	
 			<div class="card">
-				<img src="assets/images/email.jpg" alt="frog">
+				<img src="assets/images/email.jpg" alt="gmail">
 
 				<div class="cardtext">
 					<h3>Email</h3>
 
 					<p><a href="mailto:26bbrown5@go.dsdmail.net">26bbrown5<br>@go.dsdmail.net</a></p>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="assets/images/wires.jpg" alt="power lines">
+
+				<div class="cardtext">
+					<h3>Telegraph</h3>
+
+					<p>My telegraph number is <?php include "helpful-html/number.html"; ?></p>
 				</div>
 			</div>
 

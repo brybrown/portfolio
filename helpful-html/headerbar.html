@@ -1,5 +1,7 @@
 <a href="index.php" class="logo">
-	<img src="assets/images/otherlogo/blue.png" alt="Logo">
+	<img src="assets/images/otherlogo/blue.png" alt="Logo" class="bluelogo">
+
+	<img src="assets/images/otherlogo/black.png" alt="Logo" class="blacklogo">
 </a>
 
 <nav>
@@ -29,7 +31,6 @@
 		
 	function menu() {
 		const menu = document.getElementsByClassName("menu")[0];
-		const menuicon = document.getElementsByClassName("menuicon")[0];
 		const menuflex = document.getElementsByClassName("menuflex")[0];
 		const menushade = document.getElementsByClassName("menushade")[0];
 
@@ -39,8 +40,6 @@
 
 		if (menushowing) {
 			menu.style.display = "none";
-			menuicon.style.position = "static"
-			menuicon.style.marginTop = "auto";
 			menuflex.style.display = "flex";
 			menushade.style.display = "none";
 			body.style.overflow = "visible";
@@ -48,8 +47,6 @@
 			menushowing = false;
 		} else {
 			menu.style.display = "flex";
-			menuicon.style.position = "fixed";
-			menuicon.style.marginTop = "17.5px";
 			menuflex.style.display = "flex";
 			menushade.style.display = "inline";
 			body.style.overflow = "hidden";
@@ -58,6 +55,10 @@
 		}
 	}
 </script>
+
+<header>
+	<img src="../assets/images/icons/menu.png" alt="menu icon" onclick="menu()">
+</header>
 
 <div class="menu">
 	<div class="menushade"></div>
