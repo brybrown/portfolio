@@ -2,6 +2,10 @@
     background-image: url("../assets/images/contact.png"), linear-gradient(rgba(12, 12, 16, 0.5) 0%, rgba(12, 12, 16, 0.65) 93%, rgba(12, 12, 16, 1) 97%);
 }
 
+.herotext {
+	width: 80%;
+}
+
 .cardsdiv {
 	flex-direction: column;
 }
@@ -65,6 +69,17 @@ br {
 	.card {
 		width: 75%;
 		margin: 3vh auto;
+		flex-direction: column;
+		border-radius: 15px 16px 10px 7px;
+	}
+
+	.card img {
+		width: 100%;
+		border-radius: 12px 12px 15px 0;
+	}
+
+	.cardtext {
+		width: 100%;
 	}
 
 	br {

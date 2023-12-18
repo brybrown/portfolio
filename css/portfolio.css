@@ -36,6 +36,17 @@
 	.card {
 		width: 75%;
 		margin: 3vh auto;
+		flex-direction: column;
+		border-radius: 15px 16px 10px 7px;
+	}
+
+	.card img {
+		width: 100%;
+		border-radius: 12px 12px 15px 0;
+	}
+
+	.cardtext {
+		width: 100%;
 	}
 
 	.cardtext h3 {

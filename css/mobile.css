@@ -46,7 +46,6 @@
 		margin: 15px;
 		cursor: pointer;
 		filter: brightness(100%);
-
 	}
 
 	nav {
@@ -68,7 +67,6 @@
 		justify-content: space-between;
 		width: 100vw;
 		height: 100vh;
-		/* background-image: linear-gradient(hsl(186, 42%, 59%), hsl(186, 42%, 69%)); */
 		z-index: 15;
 	}
 
@@ -142,5 +140,17 @@
 
 	.footerflex a {
 		width: fit-content;
+	}
+
+	footer .github {
+		filter: invert(0%) brightness(70%);
+	}
+
+	footer .linkedin {
+		filter: grayscale(100%) brightness(30%);
+	}
+
+	footer a:hover .github, footer a:hover .linkedin {
+		filter: none;
 	}
 }
